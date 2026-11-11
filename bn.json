@@ -1,0 +1,13 @@
+{
+  "app_title": "কর্মী ব্যবস্থাপনা সিস্টেম",
+  "login": "লগইন",
+  "register": "নিবন্ধন",
+  "email": "ইমেল",
+  "password": "পাসওয়ার্ড",
+  "check_in": "চেক ইন",
+  "check_out": "চেক আউট",
+  "location_sharing": "লোকেশন শেয়ারিং",
+  "stop_sharing": "শেয়ারিং বন্ধ করুন",
+  "earnings": "বেতন এবং আয়",
+  "profile": "প্রোফাইল"
+}

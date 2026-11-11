@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div id="auth-container" class="auth-box">
+        <h2>Admin Login</h2>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Admin Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-msg" class="error"></p>
+    </div>
+
+    <div id="dashboard-container" class="dashboard hidden">
+        <header>
+            <h1>Company Admin Dashboard</h1>
+            <button id="logout-btn">Logout</button>
+        </header>
+        <main>
+            <section class="stats-grid">
+                <div class="card">
+                    <h3>Total Employees</h3>
+                    <p id="total-employees">0</p>
+                </div>
+                <div class="card">
+                    <h3>Active Now</h3>
+                    <p id="active-employees">0</p>
+                </div>
+            </section>
+            
+            <section class="table-section">
+                <h2>Pending Approvals</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pending-users-list">
+                        <!-- Dynamic Rows -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

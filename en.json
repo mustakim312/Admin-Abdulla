@@ -1,0 +1,13 @@
+{
+  "app_title": "Employee Management",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "check_in": "Check In",
+  "check_out": "Check Out",
+  "location_sharing": "Location Sharing",
+  "stop_sharing": "Stop Sharing",
+  "earnings": "Earnings & Salary",
+  "profile": "Profile"
+}
